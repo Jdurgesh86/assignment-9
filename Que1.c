@@ -1,0 +1,48 @@
+#include<stdio.h>
+int main()
+{
+    int num;
+    printf("Enter the month number ");
+    scanf("%d",&num);
+    switch(num)
+    {
+        case 1:
+            printf("The days in the month is 31");
+            break;
+        case 2:
+            printf("The days in the month is 28");
+            break;
+        case 3:
+            printf("The days in the month is 31");
+            break;
+        case 4:
+            printf("The days in the month is 30");
+            break;
+        case 5:
+            printf("The days in the month is 31");
+            break;
+        case 6:
+            printf("The days in the month is 30");
+            break;
+        case 7:
+            printf("The days in the month is 31");
+            break;
+        case 8:
+            printf("The days in the month is 31");
+            break;
+        case 9:
+            printf("The days in the month is 30");
+            break;
+        case 10:
+            printf("The days in the month is 31");
+            break;
+        case 11:
+            printf("The days in the month is 30");
+            break;
+        case 12:
+            printf("The days in the month is 31");
+            break;
+        defalut:
+            printf("Wrong Choice");
+    }
+}

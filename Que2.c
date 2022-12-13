@@ -1,0 +1,32 @@
+#include<stdio.h>
+#include<stdlib.h>
+int main()
+{
+    float a,b,mul;
+    char choice;
+    printf("Enter two numbers ");
+    scanf("%f %f",&a,&b);
+    printf("a.Addition\nb.Substraction\nc.Multiplication\nd.Division\ne.exit");
+    printf("\nEnter your choice ");
+    fflush(stdin);
+    scanf("%c",&choice);
+    switch(choice)
+    {
+        case 'a':
+            printf("The addition of two numbers is %f",a+b);
+            break;
+        case 'b':
+            printf("The substraction of two numbers is %f",a-b);
+            break;
+        case 'c':
+            printf("The multiplication of two numbers is %f",a*b);
+            break;
+        case 'd':
+            printf("The division of two numbers is %.2f",a/b);
+            break;
+        case 'e':
+            exit(0);
+        default:
+        printf("wrong choice");
+    }
+}
